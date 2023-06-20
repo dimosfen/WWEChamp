@@ -1,0 +1,76 @@
+.dropdown-content {
+  display: none;
+}
+body{
+  background: linear-gradient(to right, #6e316b,  #000000 );
+    position:center;
+}
+h1{
+  color:azure;
+}
+table{
+  color: azure;
+  border-collapse: separate;
+  border-spacing: 20px;
+  border: 1px solid azure;
+}
+th {
+  font-size: 13px;
+  font-weight: normal;
+  border-right: 1px solid #9baff1;
+  border-left: 1px solid #9baff1;
+  padding: 8px;
+}
+td {
+  border-right: 1px solid #aabcfe;
+  border-left: 1px solid #aabcfe;
+  padding: 8px;
+}
+p{
+  color: azure;
+}
+a{
+  text-decoration: none;
+    color: #dc9b3d;
+
+  }
+  #navbar{
+
+  overflow: hidden;
+  top:10;
+  width:100%;
+  border-bottom-color:grey; 
+border-bottom-style:solid;
+border-bottom-width:2px;
+  }
+  #navbar a{
+    text-decoration: none;
+    color: azure;
+  }
+  #navbar li{
+      position:block;
+      float:left;
+      display:block;
+      text-align:center;
+      padding:14px 16px;
+      font-size:17px;
+      color:white;
+  }
+
+  .pictures img{
+    width:200px;
+    height:200px;
+  }
+  #sub_picture{
+width:20px;
+height:20px;
+  }
+  #medal_pictures{
+    width:15%;
+    height:15%;
+  }
+.pictures-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1%;
+}
